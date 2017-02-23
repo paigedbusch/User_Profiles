@@ -1,0 +1,26 @@
+{
+  "name": "user_profiles",
+  "version": "1.0.0",
+  "description": "node project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paigedbusch/User_Profiles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paigedbusch/User_Profiles/issues"
+  },
+  "homepage": "https://github.com/paigedbusch/User_Profiles#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "express-session": "^1.15.1"
+  }
+}
